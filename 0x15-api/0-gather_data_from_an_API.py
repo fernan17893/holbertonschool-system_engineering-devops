@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 Returns API information
 """
 
@@ -7,8 +7,11 @@ import json
 import requests
 import sys
 
-if __name__ == "__main__":
-    """ Check first arg as user ID to return information """
+
+def first_line_formating(id):
+
+    if __name__ == "__main__":
+        """ Check first arg as user ID to return information """
     if sys.argv[1].isdigit() is True:
         user_id = int(sys.argv[1])
 
