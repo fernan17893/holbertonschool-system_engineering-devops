@@ -2,11 +2,9 @@
 """Returns API information"""
 
 
-from cgi import parse_header
 import sys
 import requests
 import json
-import urllib
 
 if __name__ == "__main__":
     if sys.argv[1].isdigit() is True:
@@ -30,7 +28,7 @@ for task in todos:
     total_tasks += 1
     if task['completed']:
         tasks_done += 1
-print('Employee {} is done with tasks {}/{}:'
+print('Employee {} is done with tasks ({}/{}):'
       .format(users['name'], tasks_done, total_tasks))
 
 for task in todos:
