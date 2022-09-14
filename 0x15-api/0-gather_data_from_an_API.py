@@ -17,9 +17,10 @@ if __name__ == "__main__":
     tasks_done = 0
 
     for task in todos:
-        total_tasks += 1
-        if task['completed']:
-            tasks_done += 1
+        if task["userId"] == users["id"]:
+            total_tasks += 1
+            if task['completed']:
+                tasks_done += 1
     print('Employee {} is done with tasks ({}/{}):'
           .format(users['name'], tasks_done, total_tasks))
 
