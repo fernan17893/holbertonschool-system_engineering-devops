@@ -4,8 +4,6 @@ import json
 import requests
 import sys
 
-from sqlalchemy import true
-
 if __name__ == "__main__":
     if sys.argv[1].isdigit() is True:
         user_id = int(sys.argv[1])
