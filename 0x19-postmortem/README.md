@@ -1,3 +1,6 @@
+![alt text](https://i.kym-cdn.com/photos/images/original/001/731/700/ade.png)
+
+
 # Postmortem
 
 ## Issue Summary
