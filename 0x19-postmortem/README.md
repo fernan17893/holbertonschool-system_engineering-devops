@@ -4,7 +4,7 @@
 # Postmortem
 
 ## Issue Summary
-Around , on October 7th our web page experienced a major outage on one of 
+Around 9:00 AM to 10:00 AM, on October 7th our web page experienced a major outage on one of 
 our database systems. Users reported data not being stored sucesfully, and not being able
 to access said data when trying to load it from the database. Around 90% of users reported
 reported this issue regarding saved database data.
